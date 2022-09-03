@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #1A1B21;
+}
+
+body {
+  font-family: 'inter', Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+  background-color: #1A1B21;
+  color: white;
+  width: 350px;
+  margin-top: 0;
+  
+}
+
+.innerFrame {
+  width: 350px;
+  margin: 50px auto;
+
+}
+
+img {
+  margin-bottom: 0;
+  width: 350px;
+}
+
+.App {
+  background-color: #23252C;
+  width: 550px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.head {
+  text-align: center;
+}
+
+.tail {
+  margin-top: 20px;
+  padding: 0 30px;
+  font-size: 12px;
+  line-height: 15.36px;
+  
+
+}
+
+.btn-email {
+  width: 115px;
+  height: 34px;
+  background-color: white;
+  border-radius: 6px;
+  margin-right: 45px;
+}
+
+.btn-linkedin {
+  background-color: #5093E2;
+  color: white;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  margin-left: 0;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+p{
+  margin-top: 10px;
+}
+
+.footer {
+  height: 64px;
+  width: 350px;
+  text-align: center;
+  height: 64px;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-right: 20px;
+}
