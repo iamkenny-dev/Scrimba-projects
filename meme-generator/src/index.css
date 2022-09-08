@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  height: 65px;
+  background-color: #672280;
+  align-items: center;
+  /* color: white; */
+}
+
+p {
+  display: flex;
+  margin-right: auto;
+}
