@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', Arial, sans-serif;
+  
+}
+
+.container {
+  border: 10px solid green;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainPage {
+  border: 1px solid black;
+  width: 550px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F5F7FB;
+}
+
+button {
+  height: 52px;
+  width: 193px;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  border-radius: 15px;
+}
+
