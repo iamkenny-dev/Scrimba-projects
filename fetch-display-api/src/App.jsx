@@ -5,10 +5,12 @@ export default function App() {
     
     // 1. GET the data (fetch)
     // 2. Save the data to state
+    React.useEffect(function() {
+      fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple")
+      .then(res => res.json())
+      .then(data => setStarWarsData(data.results))
+    }, [])
     
-    fetch("https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple")
-        .then(res => res.json())
-        .then(data => setStarWarsData(data.results[0]))
     
     return (
         <div>
@@ -17,3 +19,6 @@ export default function App() {
     )
 }
 // https://swapi.dev/api/people/1
+/*question: '',
+      correct_answer: '',
+      incorrect_answers: [] */
